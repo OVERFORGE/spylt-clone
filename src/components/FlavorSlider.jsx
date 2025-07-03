@@ -40,12 +40,18 @@ const FlavorSlider = () => {
         ".flavor-text-scroll",
         {
           xPercent: -22,
+          ease: "power1.inOut",
         },
         "<"
       )
-      .to(".second-text-split", {
-        xPercent: -10,
-      });
+      .to(
+        ".second-text-split",
+        {
+          xPercent: -10,
+          ease: "power1.inOut",
+        },
+        "<"
+      );
   });
 
   return (
