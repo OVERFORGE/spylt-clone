@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap/all";
 
 const BenefitSection = () => {
+  // Timeline creation using GSAP
   useGSAP(() => {
     const revealTl = gsap.timeline({
       delay: 1,
